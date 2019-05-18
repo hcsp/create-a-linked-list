@@ -11,5 +11,6 @@ public class MainTest {
         assertEquals(1, l.value);
         assertEquals(2, l.next.value);
         assertEquals(3, l.next.next.value);
+        assertEquals(null, l.next.next.next);
     }
 }

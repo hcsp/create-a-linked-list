@@ -8,7 +8,7 @@ public class Main {
         System.out.println("" + head.value + "," + head.next.value + "," + head.next.next.value);
     }
 
-    // Create a linked list: 1 -> 2 -> 3
-    // 创建一个这样的链表：1 -> 2 -> 3
+    // Create a linked list: 1 -> 2 -> 3 and return the head node
+    // 创建一个这样的链表：1 -> 2 -> 3 并返回头节点
     public static LinkedListNode createLinkedList() {}
 }

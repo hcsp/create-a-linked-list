@@ -10,5 +10,15 @@ public class Main {
 
     // Create a linked list: 1 -> 2 -> 3 and return the head node
     // 创建一个这样的链表：1 -> 2 -> 3 并返回头节点
-    public static LinkedListNode createLinkedList() {}
+    public static LinkedListNode createLinkedList() {
+        LinkedListNode head = new LinkedListNode();
+        LinkedListNode mid = new LinkedListNode();
+        LinkedListNode tail = new LinkedListNode();
+        head.value = 1;
+        head.next = mid;
+        mid.value = 2;
+        mid.next = tail;
+        tail.value = 3;
+        return head;
+    }
 }
